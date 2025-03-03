@@ -12,7 +12,7 @@ import Contacts from './pages/Contacts';
 
 import ScrollToTop from './utils/autoScrollToTop'
 
-function App() {
+const App:React.FC = () => {
 
   return (
     <div className="App">

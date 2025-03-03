@@ -12,7 +12,16 @@ import proj04Big from './../img/projects/04-big.jpg'
 import proj05Big from './../img/projects/05-big.jpg'
 import proj06Big from './../img/projects/06-big.jpg'
 
-const projects = [
+interface Project {
+  id: number, 
+  title: string,
+  skills: string,
+  img: string,
+  imgBig: string,
+  gitHubLink: string,
+}
+
+const projects: Project[] = [
   {
     id: 0,
     title: 'Gaming streaming portal',
@@ -64,4 +73,4 @@ const projects = [
 
 ]
 
-export {projects}
+export {projects, type Project}
