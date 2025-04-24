@@ -7,14 +7,14 @@
 	justify-content: center;
 	align-items: center;
 
-	background-color: var(--header-bg);
-	background-image: url('./../../img/header-bg.png');
+	background-color: var(--bg-color-header);
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center center;
 
 	color: var(--header-text);
 	text-align: center;
+	border-bottom: 5px solid gray;
 }
 
 .header__wrapper {
@@ -36,7 +36,7 @@
 
 .header__title em {
 	font-style: normal;
-	color: var(--accent);
+	color: gray;
 }
 
 .header__text {
@@ -47,4 +47,9 @@
 
 .header__text p + p {
 	margin-top: 0.5em;
+}
+
+.border {
+	border: 5px solid gray;
+	background-color: black;
 }

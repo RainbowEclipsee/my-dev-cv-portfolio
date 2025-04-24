@@ -5,6 +5,7 @@
 	padding: 60px 0 50px;
 	background-color: var(--footer-bg);
 	color: var(--footer-text);
+	border-top: 5px solid gray;
 }
 
 .footer__wrapper {

@@ -3,7 +3,7 @@ import './style.css'
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <div className="header__wrapper">
+      <div className="header__wrapper border">
         <h1 className="header__title">
           <strong>
             Hi, my name is <em>Bogdan</em>

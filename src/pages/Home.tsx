@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     <div>
       <Header />
 
-      <main className="section">
+      <main className="section ">
         <div className="container">
           <ul className="content-list">
             <li className="content-list__item">

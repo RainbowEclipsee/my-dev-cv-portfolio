@@ -4,7 +4,7 @@ import { projects, type Project as ProjectType } from '../helpers/projectsList'
 const Projects: React.FC = () => {
   return (
     <div>
-      <main className="section">
+      <main className="section ">
         <div className="container">
           <h2 className="title-1">Projects</h2>
           <ul className="projects">

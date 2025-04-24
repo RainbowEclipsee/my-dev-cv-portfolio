@@ -7,11 +7,11 @@ const ProjectP: React.FC = () => {
   const project: Project | undefined = projects[Number(id)]
 
   if (!project) {
-    return <div>Проект не найден</div>
+    return <div>Проекты не найдены</div>
   }
 
   return (
-    <main className="section">
+    <main className="section ">
       <div className="container">
         <div className="project-details">
           <h1 className="title-1">{project.title}</h1>
