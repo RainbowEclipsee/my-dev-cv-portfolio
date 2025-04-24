@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>Freelancer</strong> portfolio
+            <strong>Dev</strong> portfolio
           </NavLink>
 
           <BtnDarkMode />
@@ -28,6 +28,18 @@ const Navbar: React.FC = () => {
                 Home
               </NavLink>
             </li>
+
+            <li className='nav-list__item'>
+                <NavLink 
+                  to="/career"
+                  className={({ isActive }: { isActive: boolean }) => 
+                    isActive ? activeLink : defaultLink
+                    }
+                >
+                  Career
+                </NavLink>
+            </li>
+
             <li className="nav-list__item">
               <NavLink
                 to="/projects"

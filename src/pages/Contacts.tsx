@@ -40,7 +40,7 @@ const Contacts: React.FC = () => {
           <li className="content-list__item">
             <h2 className="title-2">Email</h2>
             <p>
-              <a href="mailto:makarchuk-bogdan@yandex.ru">
+              <a href="mailto:makarchuk-bogdan@yandex.ru" style={{color: 'inherit'}}>
                 makarchuk-bogdan@yandex.ru
               </a>
             </p>

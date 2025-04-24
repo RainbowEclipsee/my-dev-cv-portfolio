@@ -7,7 +7,7 @@ const ProjectP: React.FC = () => {
   const project: Project | undefined = projects[Number(id)]
 
   if (!project) {
-    return <div>Проекты не найдены</div>
+    return <div>Проект не найден</div>
   }
 
   return (

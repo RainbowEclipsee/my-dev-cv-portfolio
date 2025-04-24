@@ -28,7 +28,9 @@
   --page-bg: #e1e1e1;
   --text-color: black;
   --accent: var(--purple);
+  /* --accent: white; */
   --title-1: var(--accent);
+  /* --title-1: black; */
 
   --project-card-bg: var(--white);
   --project-card-text: var(--black);
@@ -235,6 +237,7 @@ html {
 .content-list__item p + p {
   margin-top: 0.5em;
 }
+
 
 @media (max-width: 620px) {
   /* Header  */
