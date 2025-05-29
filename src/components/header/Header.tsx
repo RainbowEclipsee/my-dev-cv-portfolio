@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="#!" className="btn">
+        <a href="/Makarchuk Bogdan.pdf" className="btn">
           Download CV
         </a>
       </div>
