@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useLocalStorage } from '../../utils/useLocalStorage'
-import detectDarkMode from '../../utils/detectDarkMode'
+// import detectDarkMode from '../../utils/detectDarkMode'
 
 import sun from './sun.svg'
 import moon from './moon.svg'
@@ -8,7 +8,11 @@ import moon from './moon.svg'
 import './style.css'
 
 const BtnDarkMode: React.FC = () => {
-  const [darkMode, setDarkMode] = useLocalStorage<'light' | 'dark'>('darkMode', detectDarkMode())
+  // const [darkMode, setDarkMode] = useLocalStorage<'light' | 'dark'>('darkMode', detectDarkMode())
+
+  // Урезал функционал исходя из того, что дизайн светлой темы сильно режет глаза, но (detectDarkMode) оставляю в проекте.
+  // TODO: Сделать дизайн светлой темы более приятным для глаз.
+  const [darkMode, setDarkMode] = useLocalStorage<'light' | 'dark'>('darkMode', 'dark')
 
   const btnRef = useRef<HTMLButtonElement>(null)
 
