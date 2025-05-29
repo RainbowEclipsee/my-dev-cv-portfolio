@@ -21,14 +21,17 @@ const PlaceOfWork: React.FC<PlaceOfWorkProps> = ({ title, workTime, img, info, s
         <h3 className="career-item__title">{title}</h3>
         <pre className="company__info">{info}</pre>
         <p className='stack'><strong>Stack: {stack}</strong></p>
-        <a
-          href={website}
-          className="career-item__link"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Visit Website
-        </a>
+
+        {website === ' ' ? null : (
+          <a
+            href={website}
+            className="career-item__link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visit Website
+          </a>
+        )}
       </div>
     </li>
   )

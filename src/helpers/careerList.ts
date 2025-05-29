@@ -34,7 +34,7 @@ Achievements:
     stack: 'JavaScript, React, Redux, Next.js, Sass.',
     img: company01,
     imgBig: company01Big,
-    website: 'https://github.com',
+    website: ' ',
   },
   {
     id: 1,
