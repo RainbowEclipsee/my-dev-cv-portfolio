@@ -1,3 +1,4 @@
+import cvFile from '../../assets/Makarchuk Bogdan.pdf'
 import './style.css'
 
 const Header: React.FC = () => {
@@ -13,7 +14,7 @@ const Header: React.FC = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="/Makarchuk Bogdan.pdf" className="btn">
+        <a href={cvFile} className="btn">
           Download CV
         </a>
       </div>
