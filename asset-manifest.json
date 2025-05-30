@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-project/static/css/main.5bc58450.css",
-    "main.js": "/portfolio-project/static/js/main.f1a5c414.js",
+    "main.js": "/portfolio-project/static/js/main.5947168b.js",
     "static/media/06-big.jpg": "/portfolio-project/static/media/06-big.f14082abbce50f755ca0.jpg",
     "static/media/06.jpg": "/portfolio-project/static/media/06.f14082abbce50f755ca0.jpg",
     "static/media/08-big.jpg": "/portfolio-project/static/media/08-big.311df9aeef63699f68c9.jpg",
     "static/media/08.jpg": "/portfolio-project/static/media/08.311df9aeef63699f68c9.jpg",
     "static/media/07-big.jpg": "/portfolio-project/static/media/07-big.6ded0cdc99b6f3e744eb.jpg",
     "static/media/07.jpg": "/portfolio-project/static/media/07.6ded0cdc99b6f3e744eb.jpg",
+    "static/media/Makarchuk Bogdan.pdf": "/portfolio-project/static/media/Makarchuk Bogdan.da469e61196ddf52cf5a.pdf",
     "static/media/02-big.jpg": "/portfolio-project/static/media/02-big.678fecc96f96d45fe8df.jpg",
     "static/media/02.jpg": "/portfolio-project/static/media/02.678fecc96f96d45fe8df.jpg",
     "static/media/05-big.jpg": "/portfolio-project/static/media/05-big.3df8fba1f899d99f8518.jpg",
@@ -25,10 +26,10 @@
     "static/media/vk.svg": "/portfolio-project/static/media/vk.ffb489eeac4ab842395ffb315910ea7f.svg",
     "index.html": "/portfolio-project/index.html",
     "main.5bc58450.css.map": "/portfolio-project/static/css/main.5bc58450.css.map",
-    "main.f1a5c414.js.map": "/portfolio-project/static/js/main.f1a5c414.js.map"
+    "main.5947168b.js.map": "/portfolio-project/static/js/main.5947168b.js.map"
   },
   "entrypoints": [
     "static/css/main.5bc58450.css",
-    "static/js/main.f1a5c414.js"
+    "static/js/main.5947168b.js"
   ]
 }
