@@ -10,7 +10,6 @@ const ProjectP: React.FC = () => {
     return (
       <div className="error-container">
         <div className="error-message">Проект не найден</div>
-        <div>Проект не найден</div>
       </div>
     )
   }
